@@ -12,11 +12,20 @@
   position: relative
   padding: 3rem 0
 
-img
-  max-width: 70%
-  border-radius: variables.$container-border-radius
+
+#avatar
+  width: 70%
+  height: auto
   position: absolute
-  top: -3rem
+  top: -4rem
+  left: 50%
+  border-radius: variables.$container-border-radius
+  transform: translateX(-50%)
+  max-width: 290px
+  object-fit: cover
+  transition: all 0.3s ease
+
+
 
 .title
   color: variables.$text-color-secondary

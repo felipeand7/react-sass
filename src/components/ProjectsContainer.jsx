@@ -8,8 +8,8 @@ export const ProjectsContainer = () => {
         de programação. Ganhei experiência através dos cursos da Origamid, além
         de inúmeros projetos independentes e estudos contínuos
       </p>
-      <a href="https://github.com/felipe0402?tab=repositories" className="btn1">
-        Ver Projetos
+      <a href="https://github.com/felipeand7?tab=repositories" className="btn1">
+        <strong>Ver Projetos</strong>
       </a>
     </section>
   );

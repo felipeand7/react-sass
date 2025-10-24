@@ -8,18 +8,28 @@
 
 @mixin btn
     padding: 1rem 1.2rem
-    color: variables.$text-color
+    color: black
+    border: solid #ffffffff 3px
     background: variables.$gradient
     text-decoration: none
     border-radius: 3rem
+    &:hover
+        border: solid black 3px
+        cursor: pointer
+
 
 @mixin btn1
     padding: 1rem 1.2rem
-    color: variables.$text-color
+    color: black
     background: variables.$gradient
     text-decoration: none
-    border-radius: 3rem
+    border: solid #ffffffff 3px
+    border-radius: 2rem
     text-align: center
+    &:hover
+        border: solid black 3px
+        cursor: pointer
+
 
 
 @mixin gradient-border
